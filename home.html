@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="dtl">
+    
+        <h1>Maridadi</h1>
+        <a class="active" href="Contact">Contact</a>
+        <a href="#Skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+      <a href="#About">About</a>
+      </div>
+
+
+    <!---ABOUT SECTION-->
+
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>"Welcome to my web portfolio! I am a skilled <br>
+                web designer and developer with a strong foundation in HTML, CSS, SQL, and C++. <br>
+                My passion for creating visually appealing and functional websites drives me to deliver high-quality projects that meet my clients' needs. <br>
+                With expertise in crafting responsive designs and efficient database management, <br>
+                I ensure that every website I build is not only aesthetically pleasing but also robust and user-friendly. <br>
+                Explore my portfolio to see how I can help bring your digital vision to life <br>
+                I pride myself on my ability to understand client requirements and translate them into effective web solutions. <br>
+                My experience with SQL allows me to create dynamic, data-driven websites that enhance user interaction and engagement. <br>
+                With C++, I bring a strong analytical approach to problem-solving, ensuring that my projects are not only visually stunning but also functionally sound. <br>
+                I invite you to explore my portfolio, where you can see examples of my work and the diverse range of projects I’ve completed. <br>
+                Let’s collaborate to turn your ideas into reality and create a web presence that truly stands out".</p>
+            <a href="#contact" class="cta-button">Hire Me</a>
+        </div>
+    </section>
+
+    <!--END OF ABOUT SECTION-->
+
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <h3>HTML</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+
+        </div>
+        <div class="skill">
+            <h3>CSS</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+
+        </div>
+        <div class="skill">
+            <h3>C++</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 93%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>SQL</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1" class="project-image"> <!-- Replace with your image URL -->
+            <h3>Project_name: Personal Blog Website</h3>
+            <p>The Personal Blog Website is a simple yet effective platform for individuals to <br>
+                share their thoughts, experiences, and expertise with a broader audience. This <br>
+                project focuses on creating a responsive and visually appealing blog using <br>
+                HTML
+                and CSS. Users can easily navigate through various posts, access an "About Me" <br>
+                section, and view a list of recent posts. This project helps enhance skills in <br>
+                web design and front-end development while providing a functional blog layout.
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2" class="project-image"> <!-- Replace with your image URL -->
+            <h3>Project_name: Personal Library Management System</h3>
+            <p>The Personal Library Management System is a console-based application designed to <br>
+                help users manage their personal book collections by allowing users to add, remove,<br>
+                view, and search for books in their library.</p>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3" class="project-image"> <!-- Replace with your image URL -->
+            <h3>Project_name: Employee Management System</h3>
+            <p>The Employee Management System is a database-driven application designed to manage employee records within an organization. <br>
+            This project aims to provide a structured way to store, retrieve, and manipulate employee data, including personal details, <br>
+            job roles, departments, and salaries. It leverages SQL to manage the backend database, enabling efficient querying and reporting <br>
+            of employee information.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Contact me at: <a href="mailto:your-email@example.com">maridadisamuel@gmail.com</a> | Phone:(0742619855)</p>
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><i class="bx bxl-facebook-circle"></i></a> 
+                <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a> 
+                <a href="#" aria-label="Github"><i class="bx bxl-github"></i></a> 
+                <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedIn"></i></a>  
+   
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
